@@ -27,7 +27,7 @@ npm run check
 - `styles.css`: responsive design, typography, and conceptual project illustrations.
 - `script.js`: navigation, project filters, clipboard, and original canvas visual.
 - `assets/portrait.png`: portrait from the existing portfolio.
-- `assets/Ehtisham-Fazal-Profile.pdf`: user-supplied LinkedIn profile export.
+- `assets/Ehtisham-Fazal-Resume.pdf`: updated two-page professional resume.
 - `CONTENT-NOTES.md`: source provenance and content review notes.
 - `server.mjs`: dependency-free local preview server; not required by GitHub Pages.
 
@@ -63,3 +63,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## Resume maintenance
+
+The website links to `assets/Ehtisham-Fazal-Resume.pdf`. The original LinkedIn export is retained at its original path for reference. Editable resume text is in `resume/Ehtisham-Fazal-Resume.md`.
+
+The generator is `resume/build_resume.py`; it requires Python with reportlab and pypdf. Edit its content, run it, then copy the generated PDF from `resume/` to `assets/` before committing. Editing the Markdown alone does not regenerate the PDF.
+
+The website and updated resume use the confirmed GitHub profile: https://github.com/Ehtisham-Fazl.
