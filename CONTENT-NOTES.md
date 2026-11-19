@@ -8,7 +8,7 @@ The PDF confirms the company spelling as **Stewart Pakistan Private Limited** an
 
 The PixelEdge metrics are self-reported professional results from the supplied LinkedIn export, not independently audited benchmarks. The illustrations on the project cards are conceptual diagrams, not client screenshots or live model outputs.
 
-The website now links to an updated, two-page professional resume at `assets/Ehtisham-Fazal-Resume.pdf`. It combines the supplied LinkedIn export with the additional Stewart responsibilities provided in chat. The original LinkedIn PDF is retained unchanged for reference. Editable text and the PDF generator are in `resume/`. The confirmed GitHub profile in both the site and resume is `https://github.com/Ehtisham-Fazl`.
+The website links to `assets/Ehtisham-Fazal-Resume.pdf`, which preserves the original four-page LinkedIn PDF template. Only the eight text lines in the Stewart description are updated with the additional responsibilities supplied in chat. All other text, positions, fonts, sidebar, page sizes, and content remain unchanged. The original file is retained unchanged at `assets/Ehtisham-Fazal-Profile.pdf`. The PDF edit script and extracted text reference are in `resume/`. The website GitHub profile remains `https://github.com/Ehtisham-Fazl`.
 
 No Staff title, Google/Amazon employment, client logos, testimonials, availability claims, or unverified achievements have been added.
 
