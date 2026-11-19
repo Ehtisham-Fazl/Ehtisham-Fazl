@@ -27,7 +27,7 @@ npm run check
 - `styles.css`: responsive design, typography, and conceptual project illustrations.
 - `script.js`: navigation, project filters, clipboard, and original canvas visual.
 - `assets/portrait.png`: portrait from the existing portfolio.
-- `assets/Ehtisham-Fazal-Resume.pdf`: original four-page resume template with the Stewart description updated.
+- `assets/EhtishamFazal-Updated.pdf`: user-supplied two-page resume template with Stewart experience added.
 - `CONTENT-NOTES.md`: source provenance and content review notes.
 - `server.mjs`: dependency-free local preview server; not required by GitHub Pages.
 
@@ -66,11 +66,13 @@ Here are some ideas to get you started:
 
 ## Resume maintenance
 
-The website links to `assets/Ehtisham-Fazal-Resume.pdf`. The original LinkedIn export is retained at its original path for reference. A text reference is in `resume/Ehtisham-Fazal-Resume.md`.
+The website links to `assets/EhtishamFazal-Updated.pdf`, based on the exact user-supplied `EhtishamFazal.pdf`. The source is retained as `resume/EhtishamFazal-Original.pdf`. This is distinct from the LinkedIn profile export used for the website biography.
 
-The generator is `resume/build_resume.py`; it requires Python with pypdf. It edits only the Stewart description in the original `assets/Ehtisham-Fazal-Profile.pdf`, retaining the four-page layout, embedded font, original text coordinates, and all other content. It writes directly to `assets/Ehtisham-Fazal-Resume.pdf` and checks that other content remains unchanged. Editing the Markdown alone does not regenerate the PDF. Do not redesign or reflow the resume template.
+Stewart's Senior AI Engineer role is inserted before PixelEdge. PixelEdge's prior role ends in May 2026. The original serif template, header, summary, skills, existing wording, section rules, page size, and two-page format are retained. Existing experience moves down and the earlier PixelEdge role moves together to page 2 to make room.
 
-The website and updated resume use the confirmed GitHub profile: https://github.com/Ehtisham-Fazl.
+The PDF script is `resume/build_resume.py` and requires Python with pypdf. It reuses the original embedded fonts, text drawing operators, and graphics. It writes `assets/EhtishamFazal-Updated.pdf`. The older `assets/Ehtisham-Fazal-Resume.pdf` URL is kept as an identical compatibility copy. Keep it synchronized when regenerating. `resume/Ehtisham-Fazal-Resume.md` is an extracted text reference, not a layout source.
+
+Do not redesign, summarize, or switch the resume template. The website GitHub profile remains https://github.com/Ehtisham-Fazl.
 
 ## Published writing
 
