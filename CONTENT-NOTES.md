@@ -11,3 +11,7 @@ The PixelEdge metrics are self-reported professional results from the supplied L
 The website now links to an updated, two-page professional resume at `assets/Ehtisham-Fazal-Resume.pdf`. It combines the supplied LinkedIn export with the additional Stewart responsibilities provided in chat. The original LinkedIn PDF is retained unchanged for reference. Editable text and the PDF generator are in `resume/`. The confirmed GitHub profile in both the site and resume is `https://github.com/Ehtisham-Fazl`.
 
 No Staff title, Google/Amazon employment, client logos, testimonials, availability claims, or unverified achievements have been added.
+
+## Published writing
+
+Medium profile confirmed by Ehtisham: https://medium.com/@ehtishamfazal68. Four article titles, URLs, dates, and preview descriptions were verified from the public author page. The YOLO26 listing displays Jan 22 without a year; the website preserves that date rather than inferring a year. Article descriptions are concise original summaries, not full-text republications.

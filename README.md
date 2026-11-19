@@ -71,3 +71,7 @@ The website links to `assets/Ehtisham-Fazal-Resume.pdf`. The original LinkedIn e
 The generator is `resume/build_resume.py`; it requires Python with reportlab and pypdf. Edit its content, run it, then copy the generated PDF from `resume/` to `assets/` before committing. Editing the Markdown alone does not regenerate the PDF.
 
 The website and updated resume use the confirmed GitHub profile: https://github.com/Ehtisham-Fazl.
+
+## Published writing
+
+The Writing section in index.html features four verified Medium articles and links to the author profile. Update article URLs, titles, dates, and descriptions there when featuring new work. It is a curated list rather than an automatically synchronized feed.
